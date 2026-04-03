@@ -1,0 +1,404 @@
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:12] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:13] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:13] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:13] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:13] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:20] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:21] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:12:29] : insert or update on table "meteo_measurement" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:12:37] : insert or update on table "meteo_measurement" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2025-05-21 07:13:58] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:39] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:40] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:40] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:40] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:40] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:40] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:52:50] : insert or update on table "meteo_measurement" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:01] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:02] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:02] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 11:53:09] : insert or update on table "meteo_measurement" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(2) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:08:43] : insert or update on table "event" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-22 12:18:24] : insert or update on table "meteo_measurement" violates foreign key constraint "parcel_id_fk"
+DETAIL:  Key (parcelId)=(1) is not present in table "parcel".
+
+[2026-01-23 08:45:09] : column res.productname does not exist
+LINE 1: ... res.metric , res.uid , res."unitRef" , res.dat , res.produc...
+                                                             ^
+
+[2026-01-23 08:45:09] : b'select res.total , res.unit , res.metric , res.uid , res."unitRef" , res.dat , res.productName , ektaria from ws_performance_indicator.parcel inner join ( select sum( evt.amount ) as total , evt.unit , evt.metric , evt.dat , parcel.uid , evt."unitRef"  from ws_performance_indicator."event" evt inner join ws_performance_indicator.parcel parcel on parcel.uid = evt."parcelId" where parcel.uid in ( \'152516\' ) and evt.type = \'fertilization\' and evt."eventStart" between \'2020-01-01\'::date and \'2027-01-01\'::date group by parcel.uid , evt.metric , evt.unit , evt."unitRef" , evt.dat ) res on res.uid = parcel.uid'
+[2026-01-23 08:45:43] : column res.productName does not exist
+LINE 1: ... res.metric , res.uid , res."unitRef" , res.dat , res."produ...
+                                                             ^
+
+[2026-01-23 08:45:43] : b'select res.total , res.unit , res.metric , res.uid , res."unitRef" , res.dat , res."productName" , ektaria from ws_performance_indicator.parcel inner join ( select sum( evt.amount ) as total , evt.unit , evt.metric , evt.dat , parcel.uid , evt."unitRef"  from ws_performance_indicator."event" evt inner join ws_performance_indicator.parcel parcel on parcel.uid = evt."parcelId" where parcel.uid in ( \'152516\' ) and evt.type = \'fertilization\' and evt."eventStart" between \'2020-01-01\'::date and \'2027-01-01\'::date group by parcel.uid , evt.metric , evt.unit , evt."unitRef" , evt.dat ) res on res.uid = parcel.uid'
+[2026-01-28 10:03:39] : duplicate key value violates unique constraint "uid_idx"
+DETAIL:  Key (uid)=(152516) already exists.
+
+[2026-01-28 10:03:40] : duplicate key value violates unique constraint "uid_idx"
+DETAIL:  Key (uid)=(263010) already exists.
+
+[2026-01-28 10:05:46] : duplicate key value violates unique constraint "event_parcelid_idx"
+DETAIL:  Key ("parcelId", "eventStart", "eventEnd", type, metric)=(152516, 2023-07-10 00:00:00, 2023-07-10 00:00:00, spray, Deltamethrin) already exists.
+
+[2026-01-28 10:05:57] : duplicate key value violates unique constraint "event_parcelid_idx"
+DETAIL:  Key ("parcelId", "eventStart", "eventEnd", type, metric)=(263010, 2023-07-10 00:00:00, 2023-07-10 00:00:00, spray, Deltamethrin) already exists.
+
+[2026-02-10 12:14:12] : null value in column "country" of relation "parcel" violates not-null constraint
+DETAIL:  Failing row contains (1, Parcel with DAT, 0103000000010000001D000000A74FD433BEC4354029F25B17FF874240D7895F..., null, null, 0.9, amanos, 152516).
+
+[2026-02-10 12:19:51] : column "evt.crop" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: ...nt ) as total , evt.unit , evt.metric , evt.dat , evt.crop ,...
+                                                             ^
+

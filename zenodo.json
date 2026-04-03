@@ -1,0 +1,32 @@
+{
+  "title": "QuantiFarm — Benchmarking Tool",
+  "description": "This common component aims to act as a single point of access, capable to provide aggregated datasets , derived from Calendars , Meterological Data , etc.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Manos, Thanasis",
+      "affiliation": "Neuropublic S.A."
+    }
+  ],
+  "keywords": [
+    "aggregated data",
+    "calendar event aggregation",
+    "environmental metrics",
+    "financial metrics"
+  ],
+  "grants": [
+    {
+      "id": "101059700"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://gitlab.com/QuantiFarm/benchmarking-tool",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "This work has been funded by the European Union's Horizon Europe research and innovation programme under grant agreement No. 101059700. Views and opinions expressed are those of the author(s) only and do not necessarily reflect those of the European Union or the REA."
+}

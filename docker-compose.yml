@@ -1,0 +1,24 @@
+services:
+    db:
+        container_name: quantifarm-postgresql
+        image: postgresql-amanos
+        build: './build/postgresql'
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: mysecretpassword
+        volumes:
+            - ../databases/benchmarking-tool:/var/lib/postgresql/data
+        ports:
+            - 5555:5432
+    api:
+        container_name: quantifarm-benchmarking-tool
+        image: fastapi-amanos
+        build: './build/fastapi'
+        restart: always
+        depends_on:
+            db: 
+                condition: service_started
+        volumes:
+            - ./volume/fastapi-app/app:/app
+        ports:
+            - "8686:8686"

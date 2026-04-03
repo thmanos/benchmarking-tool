@@ -1,0 +1,35 @@
+{
+ "service" : {
+  "endpoint"    : "127.0.0.1:8787",
+  "title"       : "Benchmarking Tool Web Service",
+  "description" : "Benchmarking Tool Web Service",
+  "version"     : "0.5.7",
+  "docs_url"    : "documentation"
+ },
+ "settings" : {
+   "debug" : true
+ },
+ "logs" : {
+  "path" : "../resources/logs/"
+ },
+ "database" : {
+   "connection" : {
+    "user"     : "postgres",
+    "password" : "mysecretpassword",
+    "host"     : "quantifarm-postgresql",
+    "port"     : "5432",
+    "database" : "postgres"
+   },
+   "schema"     : "ws_performance_indicator",
+   "authschema" : "ws_performance_indicator"
+ },
+ "uploads" : {
+  "tmp" : {
+   "path" : "../resources/uploads/"
+  },
+  "images" : {
+   "path"         : "../resources/uploads/",
+   "service_name" : "uploads"
+  }
+ }
+}

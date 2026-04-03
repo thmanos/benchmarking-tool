@@ -1,0 +1,21 @@
+dat;eventStart;eventEnd;duration;type;crop;variety;comments;amount;unit;unitRef;metric;target;productName;stage;fuelConsumption;fuelType;fuelUnit;fuelUnitRef
+https://quantifarm.eu/data/dats/gaiasense;2023-07-10;2023-07-10;0;spray;olive;;;17.5;ml;stremma;Deltamethrin;Δάκος της ελιάς;DECIS EXPERT 100 EC;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-09-25;2023-09-25;0;spray;olive;;;17.5;ml;stremma;Deltamethrin;Δάκος της ελιάς;DECIS EXPERT 100 EC;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-07-13 08:00:00;2023-07-13 10:00:00;2;irrigation;olive;;120λτ/ώρα/δέντρο 6.93 m3/Στρέμμα;6.93;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-08-01 08:00:00;2023-08-01 10:00:00;2;irrigation;olive;;120λτ/ώρα/δέντρο 6.93 m3/Στρέμμα;6.93;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-09-20 08:00:00;2023-09-20 10:00:00;2;irrigation;olive;;120λτ/ώρα/δέντρο 6.93 m3/Στρέμμα;6.93;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-02-20;2023-02-20;0;fertilization;olive;;1κg/φυτό;29.0;kg;stremma;;;11-15-15;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2023-11-16;2023-11-16;0;harvest;olive;;500kg βρώσιμες, 1000kg για λάδι;166.6;kg;stremma;;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-05-27;2024-05-27;0;spray;olive;;;17.5;ml;stremma;Deltamethrin;Πυρηνοτρήτης της ελιάς;DECIS EXPERT 100 EC;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-05-27;2024-05-27;0;spray;olive;;KSAR MAX(Kresoxim-methyl25%, Difenoconazole 12,5%);30.0;gr;stremma;;Κυκλοκόνιο;;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-09-01;2024-09-01;0;spray;olive;;;75.0;ml;stremma;Flupyradifurone;Δάκος της ελιάς;SIVANTO PRIME;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-09-15;2024-09-15;0;spray;olive;;;15.0;gr;stremma;lambda-cyhalothrin;Δάκος της ελιάς;KAISO SORBIE 5 EG;;;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-06-01 08:00:00;2024-06-01 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-06-15 08:00:00;2024-06-15 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-07-01 08:00:00;2024-07-01 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-07-15 08:00:00;2024-07-15 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-08-01 08:00:00;2024-08-01 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-08-15 08:00:00;2024-08-15 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-10-01 08:00:00;2024-10-01 11:00:00;3;irrigation;olive;;120λτ/ώρα/δέντρο 10.39 m3/Στρέμμα;10.39;m3;stremma;water;;;;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-01-07;2024-01-07;0;fertilization;olive;;;44.44;kg;stremma;;;NutrActive bor 21-7-11 (10);;0.0;;;
+https://quantifarm.eu/data/dats/gaiasense;2024-11-30;2024-11-30;0;harvest;olive;;;470.0;kg;stremma;;;;;0.0;;;

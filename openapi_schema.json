@@ -1,0 +1,1627 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Performance Indicator Web Service",
+        "description": "Performance Indicator API",
+        "version": "0.5.7"
+    },
+    "paths": {
+        "/parametrics/types/{type}": {
+            "get": {
+                "tags": [
+                    "Parametrics"
+                ],
+                "summary": "Parametrics",
+                "description": "Parametrics",
+                "operationId": "getEventTypes_parametrics_types__type__get",
+                "parameters": [
+                    {
+                        "name": "type",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/components/schemas/ParametricTables"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parametrics/update": {
+            "get": {
+                "tags": [
+                    "Parametrics"
+                ],
+                "summary": "Parametrics",
+                "description": "Parametrics",
+                "operationId": "updateParametricTable_parametrics_update_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/ids/{id}": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelById_parcel_ids__id__get",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Id"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbyid Parcel Ids  Id  Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/name/{name}": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelByName_parcel_name__name__get",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Name"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbyname Parcel Name  Name  Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/user/{user}": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelByUser_parcel_user__user__get",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "User"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbyuser Parcel User  User  Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/country/{country}": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelByCountry_parcel_country__country__get",
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Country"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbycountry Parcel Country  Country  Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/county/{county}": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelByCounty_parcel_county__county__get",
+                "parameters": [
+                    {
+                        "name": "county",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "County"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbycounty Parcel County  County  Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel/dat": {
+            "get": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Retrieve Parcel from Database",
+                "description": "Retrieve Parcel from Database",
+                "operationId": "getParcelByDat_parcel_dat_get",
+                "parameters": [
+                    {
+                        "name": "dat",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Dat"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 10,
+                            "title": "Limit"
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": 0,
+                            "title": "Offset"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Parcel"
+                                    },
+                                    "title": "Response Getparcelbydat Parcel Dat Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcel": {
+            "put": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Add a Parcel in Database",
+                "description": "Add a Parcel in Database",
+                "operationId": "addParcel_parcel_put",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "title": "Name"
+                        }
+                    },
+                    {
+                        "name": "polygon",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "default": "POLYGON((23.9450328078221 40.76302784325,23.9450894016528 40.7640470723677,23.9453283533882 40.7646519345938,23.945674204585 40.7649996088149,23.9461458198534 40.7654377709961,23.9464413654214 40.7658759302886,23.9466614525461 40.766456963156,23.9467997930249 40.7665712641057,23.9475795302708 40.765975944504,23.946843810452 40.7652996549675,23.946604858716 40.7650424726334,23.9460640732081 40.7645804944596,23.9458628506938 40.7642994958554,23.9457056456045 40.7640375469339,23.9456616281802 40.7634564929139,23.945655339977 40.7632516939747,23.9455232877018 40.7631421500972,23.9454478292589 40.7630468944047,23.9452591831513 40.7630278432499,23.9451145544687 40.7630421316166,23.9450328078221 40.76302784325))",
+                            "title": "Polygon"
+                        }
+                    },
+                    {
+                        "name": "uid",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Uid"
+                        }
+                    },
+                    {
+                        "name": "user",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": "guest",
+                            "title": "User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Delete a Parcel from the Database",
+                "description": "Delete a Parcel from the Database",
+                "operationId": "deleteParcel_parcel_delete",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Parcels"
+                ],
+                "summary": "Update a Parcel in the Database",
+                "description": "Update a Parcel in the Database",
+                "operationId": "updateParcel_parcel_post",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Id"
+                        }
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Name"
+                        }
+                    },
+                    {
+                        "name": "polygon",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": "POLYGON((23.9450328078221 40.76302784325,23.9450894016528 40.7640470723677,23.9453283533882 40.7646519345938,23.945674204585 40.7649996088149,23.9461458198534 40.7654377709961,23.9464413654214 40.7658759302886,23.9466614525461 40.766456963156,23.9467997930249 40.7665712641057,23.9475795302708 40.765975944504,23.946843810452 40.7652996549675,23.946604858716 40.7650424726334,23.9460640732081 40.7645804944596,23.9458628506938 40.7642994958554,23.9457056456045 40.7640375469339,23.9456616281802 40.7634564929139,23.945655339977 40.7632516939747,23.9455232877018 40.7631421500972,23.9454478292589 40.7630468944047,23.9452591831513 40.7630278432499,23.9451145544687 40.7630421316166,23.9450328078221 40.76302784325))",
+                            "title": "Polygon"
+                        }
+                    },
+                    {
+                        "name": "user",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "default": "guest",
+                            "title": "User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/event": {
+            "put": {
+                "tags": [
+                    "Calendar"
+                ],
+                "summary": "Add an Event",
+                "description": "Add an Event",
+                "operationId": "addEvent_event_put",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/Event"
+                                },
+                                "title": "Request"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Calendar"
+                ],
+                "summary": "Get Event By Properties",
+                "description": "Get Event By Properties",
+                "operationId": "getEvent_event_get",
+                "parameters": [
+                    {
+                        "name": "event_type",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Event Type"
+                        }
+                    },
+                    {
+                        "name": "parcelid",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Parcelid"
+                        }
+                    },
+                    {
+                        "name": "fromdate",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Fromdate"
+                        }
+                    },
+                    {
+                        "name": "todate",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Todate"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Calendar"
+                ],
+                "summary": "Delete an Event",
+                "description": "Delete an Event",
+                "operationId": "deleteEvent_event_delete",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "title": "Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Calendar"
+                ],
+                "summary": "Update Event in Database",
+                "description": "Update Event in Database",
+                "operationId": "updateEvent_event_post",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Id"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Event"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/event/id/{event_id}": {
+            "get": {
+                "tags": [
+                    "Calendar"
+                ],
+                "summary": "Get Event By ID",
+                "description": "Get Event By ID",
+                "operationId": "getEventById_event_id__event_id__get",
+                "parameters": [
+                    {
+                        "name": "event_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "anyOf": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ],
+                            "title": "Event Id"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/parcels/{parcelid}/aggregations/": {
+            "get": {
+                "tags": [
+                    "Aggregation"
+                ],
+                "summary": "Get aggregated event data",
+                "description": "Get aggregated event data ( Sum of Irrigations , etc ) for a single or a collection of parcels.",
+                "operationId": "getAggregations_parcels__parcelid__aggregations__get",
+                "parameters": [
+                    {
+                        "name": "parcelid",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "title": "Parcelid"
+                        }
+                    },
+                    {
+                        "name": "evt_type",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/components/schemas/EventTypes"
+                        }
+                    },
+                    {
+                        "name": "aggregation_function",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/components/schemas/AggregationFunctions"
+                        }
+                    },
+                    {
+                        "name": "fromdate",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "format": "date",
+                            "default": "2020-01-01",
+                            "title": "Fromdate"
+                        }
+                    },
+                    {
+                        "name": "todate",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "format": "date",
+                            "default": "2025-01-01",
+                            "title": "Todate"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/import/parcel": {
+            "post": {
+                "tags": [
+                    "Imports"
+                ],
+                "summary": "Import from Various Sources",
+                "description": "Import from Various Sources",
+                "operationId": "uploadParcel_import_parcel_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_uploadParcel_import_parcel_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/import/event": {
+            "post": {
+                "tags": [
+                    "Imports"
+                ],
+                "summary": "Import from Various Sources",
+                "description": "Import from Various Sources",
+                "operationId": "uploadEvent_import_event_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_uploadEvent_import_event_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "AggregationFunctions": {
+                "type": "string",
+                "enum": [
+                    "sum",
+                    "avg",
+                    "min",
+                    "max"
+                ],
+                "title": "AggregationFunctions"
+            },
+            "Body_uploadEvent_import_event_post": {
+                "properties": {
+                    "filedata": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Filedata"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "filedata"
+                ],
+                "title": "Body_uploadEvent_import_event_post"
+            },
+            "Body_uploadParcel_import_parcel_post": {
+                "properties": {
+                    "filedata": {
+                        "type": "string",
+                        "format": "binary",
+                        "title": "Filedata"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "filedata"
+                ],
+                "title": "Body_uploadParcel_import_parcel_post"
+            },
+            "Event": {
+                "properties": {
+                    "dat": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Dat"
+                    },
+                    "parcelId": {
+                        "type": "string",
+                        "title": "Parcelid"
+                    },
+                    "eventStart": {
+                        "type": "string",
+                        "format": "date-time",
+                        "title": "Eventstart"
+                    },
+                    "eventEnd": {
+                        "anyOf": [
+                            {
+                                "type": "string",
+                                "format": "date-time"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Eventend"
+                    },
+                    "duration": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Duration"
+                    },
+                    "type": {
+                        "$ref": "#/components/schemas/EventTypes"
+                    },
+                    "crop": {
+                        "type": "string",
+                        "title": "Crop"
+                    },
+                    "variety": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Variety"
+                    },
+                    "comments": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Comments"
+                    },
+                    "properties": {
+                        "anyOf": [
+                            {
+                                "$ref": "#/components/schemas/EventProperties"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ]
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "parcelId",
+                    "eventStart",
+                    "type",
+                    "crop"
+                ],
+                "title": "Event"
+            },
+            "EventProperties": {
+                "properties": {
+                    "amount": {
+                        "type": "number",
+                        "title": "Amount used in the Event"
+                    },
+                    "unit": {
+                        "$ref": "#/components/schemas/Unit"
+                    },
+                    "unitRef": {
+                        "$ref": "#/components/schemas/UnitReference"
+                    },
+                    "metric": {
+                        "type": "string",
+                        "title": "Metric"
+                    },
+                    "target": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Target"
+                    },
+                    "productName": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Productname"
+                    },
+                    "stage": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Stage"
+                    },
+                    "fuelConsumption": {
+                        "anyOf": [
+                            {
+                                "type": "number"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Fuelconsumption"
+                    },
+                    "fuelType": {
+                        "anyOf": [
+                            {
+                                "$ref": "#/components/schemas/FuelType"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ]
+                    },
+                    "fuelUnit": {
+                        "anyOf": [
+                            {
+                                "$ref": "#/components/schemas/Unit"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ]
+                    },
+                    "fuelUnitRef": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Fuelunitref"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "amount",
+                    "unit",
+                    "unitRef",
+                    "metric"
+                ],
+                "title": "EventProperties"
+            },
+            "EventTypes": {
+                "type": "string",
+                "enum": [
+                    "harvest",
+                    "land_management",
+                    "spray",
+                    "irrigation",
+                    "phaenological_stage",
+                    "insect",
+                    "fertilization",
+                    "plow"
+                ],
+                "title": "EventTypes"
+            },
+            "FuelType": {
+                "type": "string",
+                "enum": [
+                    "diesel",
+                    "gas",
+                    "electricity",
+                    "windturbine",
+                    "hydro"
+                ],
+                "title": "FuelType"
+            },
+            "HTTPValidationError": {
+                "properties": {
+                    "detail": {
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        },
+                        "type": "array",
+                        "title": "Detail"
+                    }
+                },
+                "type": "object",
+                "title": "HTTPValidationError"
+            },
+            "ParametricTables": {
+                "type": "string",
+                "enum": [
+                    "FuelType",
+                    "Unit",
+                    "UnitReference",
+                    "EventType",
+                    "Country",
+                    "County"
+                ],
+                "title": "ParametricTables"
+            },
+            "Parcel": {
+                "properties": {
+                    "uid": {
+                        "type": "string",
+                        "title": "Uid"
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "polygon": {
+                        "type": "string",
+                        "title": "Polygon"
+                    },
+                    "country": {
+                        "type": "string",
+                        "title": "Country"
+                    },
+                    "county": {
+                        "type": "string",
+                        "title": "County"
+                    },
+                    "ektaria": {
+                        "type": "number",
+                        "title": "Ektaria"
+                    },
+                    "user": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "User"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "uid",
+                    "name",
+                    "polygon",
+                    "country",
+                    "county",
+                    "ektaria"
+                ],
+                "title": "Parcel"
+            },
+            "Unit": {
+                "type": "string",
+                "enum": [
+                    "ton",
+                    "kg",
+                    "gr",
+                    "kl",
+                    "lt",
+                    "ml",
+                    "m3"
+                ],
+                "title": "Unit"
+            },
+            "UnitReference": {
+                "type": "string",
+                "enum": [
+                    "stremma",
+                    "hectar"
+                ],
+                "title": "UnitReference"
+            },
+            "ValidationError": {
+                "properties": {
+                    "loc": {
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        },
+                        "type": "array",
+                        "title": "Location"
+                    },
+                    "msg": {
+                        "type": "string",
+                        "title": "Message"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Error Type"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "loc",
+                    "msg",
+                    "type"
+                ],
+                "title": "ValidationError"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Aggregation",
+            "description": "Various operations for Aggregated Data."
+        },
+        {
+            "name": "Parcels",
+            "description": "Various operations for Parcels Data."
+        },
+        {
+            "name": "Calendar",
+            "description": "Various operations for Calendar."
+        },
+        {
+            "name": "Parametrics",
+            "description": "Parametrics."
+        },
+        {
+            "name": "Imports",
+            "description": "Imports."
+        }
+    ]
+}

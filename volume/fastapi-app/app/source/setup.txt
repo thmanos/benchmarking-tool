@@ -1,0 +1,55 @@
+install 
+pip install fastapi
+pip install uvicorn
+pip install aiohttp
+pip install aiofiles
+pip install psycopg2
+pip install python-multipart
+
+Start Server 
+cd C:\Users\surta\Documents\PythonProjects\main_ws\source
+uvicorn main:app --port 8585 --host 127.0.0.1 --reload --root-path /
+
+/* TEST */
+curl -XGET 127.0.0.1:8585
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations"
+
+/* Get details for x locations providing ids */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations?locationid=2,3,4,5,6"
+
+/* Get One location close to Point */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations?longitude=40.608&latitude=22.184"
+
+/* Get Multiple locations close to Point (Radius is in meters) */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations?longitude=40.608&latitude=22.184&limit=10&radius=10000"
+
+/* Get Available Sensors close to a Point */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations/sensors?longitude=40.608&latitude=22.184"
+
+/* Get Available Sensors close to a Point on specific Date */
+
+// Check for velocity -> gust , it should have one
+   curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations/sensors?locationid=213&fromdate=2020-09-24&todate=2020-09-24"
+
+// Check for velocity -> gust , it should not have one
+   curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations/sensors?locationid=213&fromdate=2020-07-23&todate=2020-07-23"
+
+/* Get Measurements close to a Point */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "http://localhost:8585/locations/measurements/wsht30_temp,wsht30_rh,dnd_90_sdi12_temp_20?locationid=213"
+
+curl -u tno:b2318dcd77b13438faf2724e -XGET "http://localhost:8585/locations/measurements/wsht30_temp?longitude=40.0414430&latitude=22.0662310&fromdate=2020-07-23&todate=2020-07-24"
+
+/* Get Harvests for specific GeoPoint */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "http://localhost:8585/locations/events/harvest?fromdate=2021-07-01&todate=2021-09-08&longitude=40.8156276&latitude=22.2170236"
+
+/* STOP UVICORN SERVICE */
+Find Process running : fuser 8081/tcp
+Kill process running : fuser -k 8081/tcp
+
+
+/* Procedure */
+/* Get Available Sensors on specific Location for Specific Timeline */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "127.0.0.1:8585/locations/sensors?longitude=40.608&latitude=22.184&fromdate=2021-06-01&todate=2021-08-30"
+
+/* Query to get Results of Sensors for speicfic location , timeline , limit , orderby , offset */
+curl -u tno:b2318dcd77b13438faf2724e -XGET "http://localhost:8585/locations/measurements/wsht30_temp,nplwrh1,velocity?longitude=40.608&latitude=22.184&fromdate=2021-06-01&todate=2021-08-30&limit=10&orderby=desc&offset=10"
