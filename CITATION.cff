@@ -4,9 +4,7 @@ version: 1.0.0
 date-released: 2024-01-01
 abstract: >
     This common component aims to act as a single point of access, capable to provide aggregated datasets , derived from Calendars , Meterological Data , etc.
-license:
-  - Apache-2.0
-  - CC-BY-4.0
+license: "Apache-2.0"
 repository-code: "https://gitlab.com/QuantiFarm/benchmarking-tool"
 authors:
   - family-names: Manos
